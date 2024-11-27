@@ -7,13 +7,22 @@ Thank you for helping us improve our documentation.
 
 This guide is intended for use by documentation contributors and will help you get started with the basics of our working processes.
 
+## Table of Contents
+- [Before you Start](#-before-you-start)
+- [Community Engagement](#-community-engagement)
+- [Best Practices](#-best-practices)
+- [Contribution Workflow](#-contribution-workflow)
+- [Review Pull Request](#-work-on-an-existing-issue)
+- [Propose Changes](#-create-pull-request)
+- [Create a Pull Request](#-create-a-pull-request) 
+
 ## Before you start
 To contribute to the JSON Schema documentation you will need to complete the following steps:
 
 1. [Create a GitHub account](https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github), if you don't have one already.
 2. Read our [Code of Conduct](https://json-schema.org/overview/code-of-conduct).
-3. [Install the JSON Schema website](https://github.com/json-schema-org/website/blob/main/INSTALLATION.md) on your computer.
-4. Read our [style guide](https://json-schema.org/md-style-guide). 
+3. Read our [style guide](https://json-schema.org/md-style-guide). 
+4. Fork and [Install the JSON Schema website](https://github.com/json-schema-org/website/blob/main/INSTALLATION.md) on your computer.
 
 ## Community engagement
 To stay updated with news about the JSON Schema project and its documentation, engage with our team, ask questions, and discuss ideas, please join our [Slack workspace](https://json-schema.org/slack). We particularly recommend the following channels:
@@ -30,12 +39,12 @@ To stay updated with news about the JSON Schema project and its documentation, e
 
 - `#stack-overflow`: Stack overflow questions tagged with JSON Schema.
   
-## Best practices
+## Best Practices
 
 This is a list of best practices the JSON Schema project strives for and resources we recommend for additional information:
 
-1. File and branching naming conventions: We use dashes instead of spaces, and lowercase letters to name .md files and branches. For example: `implementers-guide.md`, `web-feat-diataxis`.
-2. Commit messages: To learn how to write good commit messages, see [Step-by-step guide on how to write good commit messages on Git](https://www.freecodecamp.org/news/how-to-write-better-git-commit-messages/).
+1. **File and branching naming conventions:** We use dashes instead of spaces, and lowercase letters to name .md files and branches. For example: `implementers-guide.md`, `web-feat-diataxis`.
+2. **Commit messages:** To learn how to write good commit messages, see [Step-by-step guide on how to write good commit messages on Git](https://www.freecodecamp.org/news/how-to-write-better-git-commit-messages/).
 
 ## Contribution workflow 
 
@@ -52,22 +61,32 @@ Are you new to the JSON Schema community? Help us review pull requests. Reviewin
 
 ### Work on an existing issue
 
-To work on an existing issue, go to the [JSON Schema docs board](https://github.com/orgs/json-schema-org/projects/16) and check all the open issues.  
+To work on an existing issue; 
+1. Go to the [JSON Schema docs board](https://github.com/orgs/json-schema-org/projects/16) and check all the open issues.  
 
-If the issue you select has no assignees, you can claim the issue by assigning it to yourself and tag @json-schema-org/docs-team in the comments to let us know you'll be working on it. 
+2. Select an issue and check if it is available and has no assignees.
+   - If the issue you select has no **assignees**, you can claim the issue by assigning it to yourself and tag @json-schema-org/docs-team in the comments to let us know you'll be working on it. 
 
-If the issue you select has already an assignee, write a comment expressing your interest in collaborating with them. The JSON Schema respects the order in which people claim issues, therefore, you will have to check if the assignee is accepting collaborations.
+   - If the issue you select has already an assignee, write a comment expressing your interest in collaborating with them. The JSON Schema respects the order in which people claim issues, therefore, you will have to check if the assignee is accepting collaborations.
 
-After you have been assigned to an issue, fork the [json-schema-org/website](https://github.com/json-schema-org/website) repository and create a new branch from `main` to work on the changes. 
+3. After you have been assigned to an issue;
+   - Fork the [json-schema-org/website](https://github.com/json-schema-org/website) repository
+   - [Install the JSON Schema website](https://github.com/json-schema-org/website/blob/main/INSTALLATION.md) on your computer.
+   - Create a new branch from `main` to work on the changes. 
 
 ### Propose changes
 
-To propose modifications to our documentation that do not have an issue in the [documentation board](https://github.com/orgs/json-schema-org/projects/16), you can [create a GitHub issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue#creating-an-issue-from-a-repository) and use the *Documentation* template to describe the changes. After that, you can decide whether you want to work on the changes yourself or let someone else claim the issue. If you decide to work on the issue, assign it to yourself and commit the changes to a new branch. 
+To propose modifications to our documentation that do not have an issue in the [documentation board](https://github.com/orgs/json-schema-org/projects/16), you can 
+1. [Create a GitHub issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue#creating-an-issue-from-a-repository) and use the *Documentation* template to describe the changes. 
+2. After that, you can decide whether you want to work on the changes yourself or let someone else claim the issue.
+3. If you decide to work on the issue, assign it to yourself and commit the changes to a new branch. 
 
 ## Create a Pull Request
 
-To submit your work to review by the community, open a draft pull request to the `main` upstream branch, and add the issue your pull request solves. Add @json-schema-org/docs-team as a reviewer of your pull request, and let us know in the #documentation Slack channel your pull request is ready for review. 
-
+To submit your work to review by the community;
+- Open a draft pull request to the `main` upstream branch, and add the issue your pull request solves.
+- Add @json-schema-org/docs-team as a reviewer of your pull request, and let us know in the #documentation Slack channel your pull request is ready for review.
+  
 The reviewers might ask for additional changes. When they approve your pull request, you can merge your changes into `main` and your contribution to the project will be complete!
 
 <br>
